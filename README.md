@@ -1,1 +1,1 @@
-# AI_meme_gen
+# meme_gen_AI
