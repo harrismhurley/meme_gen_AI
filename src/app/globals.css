@@ -1,0 +1,67 @@
+/* Base reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .editor-container {
+    min-height: 100vh;
+    padding: 2rem;
+    background: #f8f9fa;
+  }
+  
+  .editor-header {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #6b46c1;
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+  }
+  
+  .template-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .canvas-area {
+    border: 2px dashed #e5e7eb;
+    border-radius: 8px;
+    height: 24rem;
+    position: relative;
+  }
+  
+  .canvas-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9ca3af;
+  }
+  
+  /* Meme text styling */
+  .meme-text {
+    position: absolute;
+    cursor: move;
+    user-select: none;
+    font-weight: 700;
+    color: white;
+    text-shadow: 
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000;
+  }
+  
